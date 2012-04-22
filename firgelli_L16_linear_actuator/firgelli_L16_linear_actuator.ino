@@ -16,7 +16,7 @@ int val = 0;         // variable to store the read value
  
 void setup() 
 { 
-  pinMode(potpin, OUTPUT);  // declare the ledPin as an OUTPUT
+  pinMode(potpin, OUTPUT);  // declare the potpin as an OUTPUT
   myservo.attach(9);  // attaches the servo on pin 9 to the servo object 
   Serial.begin(9600);
 } 
